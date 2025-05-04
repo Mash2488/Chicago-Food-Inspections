@@ -82,6 +82,7 @@ The following cleaning steps were performed to prepare the dataset for analysis:
 
 ---
 
+# 1. **Which areas in Chicago may need food reform?**
 ## How I mapped Chicago
  - I google searched github.com Illinois zip code GeoJSON
  - I found this repository [https://github.com/OpenDataDE/State-zip-code-GeoJSON]
@@ -95,8 +96,19 @@ The following cleaning steps were performed to prepare the dataset for analysis:
   - **Pass Rate**: 40%
 - This suggests that ZIP code 60827 may be an area of concern for food safety reform efforts.
 
+# 2. **Are there any patterns in inspection results or violations by facility type**
+## Note on facility types
+ - "Unknown" facility types were excluded from my analysis. Investigation results showed a large portion of these businesses were reported out of business. Keeping them would distort fail rates and misrepresent active businesses. 
 
+- Facilities serving vulnerable groups such as senior care, shelters, daycares, and schools displayed higher inspection fail rates post the covid-19 pandemic. Traditional restaurants performed better, likley reflecting adaptions to stricter hygeine practices due to the covid-19 pandemic. Facilities handling live poultry exhibited the highest inspection fail rate among all groups, suggesting a need for increased oversight and stricter food safety protocols.
 
+# 3. **How did facilities adapt to the 2018 change in insepction definitions**?
+- Facilities serving vulnerable groups of people such as senior care and schools showed some of the highest increases in inspection fail rates after 2018 suggesting greater compliance challenges.
 
+- Facilities handling live poultry displayed a 22.4% increase in failure rates after 2018. This is a high risk food category and needs enhanced oversight and regulation.
 
+- Additionally rooftop facilities, mobile vendors, and catering services showed improved inspection outcomes.
+
+# 4. **Are complaint based inspections more likely to result in failing**? 
+- 
 
