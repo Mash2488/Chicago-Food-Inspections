@@ -77,7 +77,7 @@ The following cleaning steps were performed to prepare the dataset for analysis:
 - **Are complaint based inspections more likely to result in failing inspection**?:
   - Does the inspection type correlate with failure rates?
 - **Are specific business chains and franchises more likely to fail inspection**?:
-  - Using 'aka_name' values can we identify patterns amongst large brands?
+  - Using 'dba_name' values can we identify patterns amongst large brands?
  
 
 ---
@@ -140,7 +140,7 @@ The following cleaning steps were performed to prepare the dataset for analysis:
 ## Final Thoughts
 - Facilities serving vulnerable groups of people such has schools, shelters, day cares, and medical care showed some of the highest increases in inspection fail rates after 2018, highlighting a need for stronger oversight.
 
-- Complaint based inspections are statistically more likley to result in inspection failure as confirmed by the Chi-Squared Test that accounts for the difference in group sizes, which means the comparison is adjusted for how many inspections occured in each group and is unlikely due to random chance.  
+- Complaint based inspections are statistically more likely to result in inspection failure as confirmed by the Chi-Squared Test that accounts for the difference in group sizes, which means the comparison is adjusted for how many inspections occurred in each group and is unlikely due to random chance.  
 
 - Most inspections conducted do not stem from complaints, and most facilities pass but outliers exist and often clutter in certain zip codes and facility types.
 
